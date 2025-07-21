@@ -1,0 +1,42 @@
+.tnc_main_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "DM Sans",sans-serif;
+    background-color: #f5f8fb;
+}
+.tnc_inner_con {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    margin: 100px 0;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px;
+}
+.tnc-btn-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 16px;
+    color: #004ab3;
+    font-weight: 500;
+    width: 100px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.tnc_inner_con h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+}
+.tnc_inner_con_hr{
+    width: 100%;
+    margin: 30px;
+    height: 1px;
+    color: #000000;
+}

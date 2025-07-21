@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./View_orders.css">
+    <title>View_orders</title>
+</head>
+<body>
+    <div class="View-orders-main-container">
+        <div class="view-orders-table-cont">
+        <!-- order - view - conatiner  -->
+            <!-- <div class="view-order-search-filter-cont">
+                <div class="view-orders-search-container">
+                    <input class="view-order-search-bar" type="text" placeholder="Search By product, order Id.............."> 
+                    <img class="view-ordeer-search-icon" src="./Images/proicons_search.png" alt="search-bar">
+                </div>
+                <button class="view-orders-filter-button">Filters <img class="view-orders-filter-button-img" src="./Images/filter.png" alt=""></button>
+            </div> -->
+
+            <!-- <div class="view-order-buttuns-wrapper">
+                <div class="view-order-buttuns-cont">
+                    <button>All Orders</button>
+                    <button>In Progress Orders</button>
+                    <button>Delivered Orders</button>
+                    <button>Canceled Orders</button>
+                    <button>Return Orders</button>
+                </div>
+            </div> -->
+
+
+
+            <!-- <div class="view-order-table-container">
+                <table class="order-table">
+                    <thead>
+                    <tr class="order-table-heading">
+                        <th class="order-content-heading">Order ID</th>
+                        <th class="order-content-heading">Customer</th>
+                        <th class="order-content-heading">Items</th>
+                        <th class="order-content-heading">Order Date & Time</th>
+                        <th class="order-content-heading">Amount</th>
+                        <th class="order-content-heading">Status</th>
+                        <th class="order-content-heading">Actions</th>
+                    </tr>
+                    </thead>
+
+                  
+
+                    <tbody>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    
+                   
+                       <tr>
+                        <td class="order-count-td">#EN114</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-canl">Canceled</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-prog">In Progress</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-ret">Returned</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="order-count-td">#EN115</td>
+                        <td class="order-content-para">Ramya Chitti</td>
+                        <td class="order-content-para">03</td>
+                        <td class="order-content-para">03 Jun 25, 12:16AM</td>
+                        <td class="order-content-para">₹900</td>
+                        <td class="order-content-para-deli"><span class="order-tab-para-deli">Delivered</span></td>
+                        <td class="order-content-para-deli">
+                        <button class="order-table-button">
+                            View <img class="order-table-button-img" src="./Images/lsicon_view-filled.png" alt="">
+                        </button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div> -->
+            <div class="ord-search-add-pro-container">
+                <div class="search-bar-cont">
+                    <div class="view-orders-search-container-2">
+                        <input class="view-order-search-bar" type="text" placeholder="Search "> 
+                        <img class="view-ordeer-search-icon" src="./Images/proicons_search.png" alt="search-bar">
+                    </div>
+                    <div class="Category-container">
+                        <select id="category-select" class="category-units input-form-4">
+                            <option value="">Category</option>
+                            <option value="20 ml">Hair</option>
+                            <option value="50 ml">Skin</option>
+                            <option value="100 ml">Body</option>
+                            <option value="500 ml">Shampoo</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="add-product-btn">Add Product</button>
+            </div>
+            <div class="view-order-table-container">
+                            <table class="order-table">
+                                <thead>
+                                    <tr class="order-table-heading">
+                                        <th class="order-content-heading">S.No</th>
+                                        <th class="order-content-heading">Product Name </th>
+                                        <th class="order-content-heading">Category</th>
+                                        <th class="order-content-heading">Price & Size</th>
+                                        <th class="order-content-heading">Discount</th>
+                                        <th class="order-content-heading">Status</th>
+                                        <th class="order-content-heading">Actions</th>
+
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td class="order-count-td">01</td>
+                                        <td class="order-content-img-para-cont">
+                                            <img class="order-content-img-para-cont-img"  src="./Images/Frame 1321317918.png" alt=""></img>
+                                            <p >Radiant Shine Hair Conditioner </p>
+                                        </td>
+                                        <td class="order-content-para">Hair</td>
+                                        <td class="order-content-para">₹900 <br> <span>10 ml</span></td>
+                                        <td class="order-content-para">14%</td>
+                                        <td class="order-content-para">In Stock</td>
+                                        <td class="order-table-button-action">
+                                            <div class="dropdown">
+                                                <button class="order-table-button-2">
+                                                    <img class="order-table-button-img-2" src="./Images/solar_menu-dots-bold (1).png" alt="">
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <button class="dropdown-item">Edit <img class="dropdown-item-img" src="./Images/pencil.png" alt=""></button>
+                                                    <button class="dropdown-item">View <img class="dropdown-item-img" src="./Images/lsicon_view-filled.png" alt=""></button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order-count-td">02</td>
+                                        <td class="order-content-img-para-cont">
+                                            <img class="order-content-img-para-cont-img"  src="./Images/Frame 1321317918.png" alt=""></img>
+                                            <p >Radiant Shine Hair Conditioner </p>
+                                        </td>
+                                        <td class="order-content-para">Hair</td>
+                                        <td class="order-content-para">₹900 <br> <span>10 ml</span></td>
+                                        <td class="order-content-para">14%</td>
+                                        <td class="order-content-para">In Stock</td>
+                                        <td class="order-table-button-action">
+                                            <div class="dropdown">
+                                                <button class="order-table-button-2">
+                                                    <img class="order-table-button-img-2" src="./Images/solar_menu-dots-bold (1).png" alt="">
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <button class="dropdown-item">Edit <img class="dropdown-item-img" src="./Images/pencil.png" alt=""></button>
+                                                    <button class="dropdown-item">View <img class="dropdown-item-img" src="./Images/lsicon_view-filled.png" alt=""></button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order-count-td">03</td>
+                                        <td class="order-content-img-para-cont">
+                                            <img class="order-content-img-para-cont-img"  src="./Images/Frame 1321317918.png" alt=""></img>
+                                            <p >Radiant Shine Hair Conditioner </p>
+                                        </td>
+                                        <td class="order-content-para">Hair</td>
+                                        <td class="order-content-para">₹900 <br> <span>10 ml</span></td>
+                                        <td class="order-content-para">14%</td>
+                                        <td class="order-content-para">In Stock</td>
+                                        <td class="order-table-button-action">
+                                            <div class="dropdown">
+                                                <button class="order-table-button-2">
+                                                    <img class="order-table-button-img-2" src="./Images/solar_menu-dots-bold (1).png" alt="">
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <button class="dropdown-item">Edit <img class="dropdown-item-img" src="./Images/pencil.png" alt=""></button>
+                                                    <button class="dropdown-item">View <img class="dropdown-item-img" src="./Images/lsicon_view-filled.png" alt=""></button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order-count-td">03</td>
+                                        <td class="order-content-img-para-cont">
+                                            <img class="order-content-img-para-cont-img"  src="./Images/Frame 1321317918.png" alt=""></img>
+                                            <p >Radiant Shine Hair Conditioner </p>
+                                        </td>
+                                        <td class="order-content-para">Hair</td>
+                                        <td class="order-content-para">₹900 <br> <span>10 ml</span></td>
+                                        <td class="order-content-para">14%</td>
+                                        <td class="order-content-para">In Stock</td>
+                                        <td class="order-table-button-action">
+                                            <div class="dropdown">
+                                                <button class="order-table-button-2">
+                                                    <img class="order-table-button-img-2" src="./Images/solar_menu-dots-bold (1).png" alt="">
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <button class="dropdown-item">Edit <img class="dropdown-item-img" src="./Images/pencil.png" alt=""></button>
+                                                    <button class="dropdown-item">View <img class="dropdown-item-img" src="./Images/lsicon_view-filled.png" alt=""></button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order-count-td">03</td>
+                                        <td class="order-content-img-para-cont">
+                                            <img class="order-content-img-para-cont-img"  src="./Images/Frame 1321317918.png" alt=""></img>
+                                            <p >Radiant Shine Hair Conditioner </p>
+                                        </td>
+                                        <td class="order-content-para">Hair</td>
+                                        <td class="order-content-para">₹900 <br> <span>10 ml</span></td>
+                                        <td class="order-content-para">14%</td>
+                                        <td class="order-content-para">In Stock</td>
+                                        <td class="order-table-button-action">
+                                            <div class="dropdown">
+                                                <button class="order-table-button-2">
+                                                    <img class="order-table-button-img-2" src="./Images/solar_menu-dots-bold (1).png" alt="">
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <button class="dropdown-item">Edit <img class="dropdown-item-img" src="./Images/pencil.png" alt=""></button>
+                                                    <button class="dropdown-item">View <img class="dropdown-item-img" src="./Images/lsicon_view-filled.png" alt=""></button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order-count-td">03</td>
+                                        <td class="order-content-img-para-cont">
+                                            <img class="order-content-img-para-cont-img"  src="./Images/Frame 1321317918.png" alt=""></img>
+                                            <p >Radiant Shine Hair Conditioner </p>
+                                        </td>
+                                        <td class="order-content-para">Hair</td>
+                                        <td class="order-content-para">₹900 <br> <span>10 ml</span></td>
+                                        <td class="order-content-para">14%</td>
+                                        <td class="order-content-para">In Stock</td>
+                                        <td class="order-table-button-action">
+                                            <div class="dropdown">
+                                                <button class="order-table-button-2">
+                                                    <img class="order-table-button-img-2" src="./Images/solar_menu-dots-bold (1).png" alt="">
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <button class="dropdown-item">Edit <img class="dropdown-item-img" src="./Images/pencil.png" alt=""></button>
+                                                    <button class="dropdown-item">View <img class="dropdown-item-img" src="./Images/lsicon_view-filled.png" alt=""></button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order-count-td">03</td>
+                                        <td class="order-content-img-para-cont">
+                                            <img class="order-content-img-para-cont-img"  src="./Images/Frame 1321317918.png" alt=""></img>
+                                            <p >Radiant Shine Hair Conditioner </p>
+                                        </td>
+                                        <td class="order-content-para">Hair</td>
+                                        <td class="order-content-para">₹900 <br> <span>10 ml</span></td>
+                                        <td class="order-content-para">14%</td>
+                                        <td class="order-content-para">In Stock</td>
+                                        <td class="order-table-button-action">
+                                            <div class="dropdown">
+                                                <button class="order-table-button-2">
+                                                    <img class="order-table-button-img-2" src="./Images/solar_menu-dots-bold (1).png" alt="">
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <button class="dropdown-item">Edit <img class="dropdown-item-img" src="./Images/pencil.png" alt=""></button>
+                                                    <button class="dropdown-item">View <img class="dropdown-item-img" src="./Images/lsicon_view-filled.png" alt=""></button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order-count-td">03</td>
+                                        <td class="order-content-img-para-cont">
+                                            <img class="order-content-img-para-cont-img"  src="./Images/Frame 1321317918.png" alt=""></img>
+                                            <p >Radiant Shine Hair Conditioner </p>
+                                        </td>
+                                        <td class="order-content-para">Hair</td>
+                                        <td class="order-content-para">₹900 <br> <span>10 ml</span></td>
+                                        <td class="order-content-para">14%</td>
+                                        <td class="order-content-para">In Stock</td>
+                                        <td class="order-table-button-action">
+                                            <div class="dropdown">
+                                                <button class="order-table-button-2">
+                                                    <img class="order-table-button-img-2" src="./Images/solar_menu-dots-bold (1).png" alt="">
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <button class="dropdown-item">Edit <img class="dropdown-item-img" src="./Images/pencil.png" alt=""></button>
+                                                    <button class="dropdown-item">View <img class="dropdown-item-img" src="./Images/lsicon_view-filled.png" alt=""></button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order-count-td">03</td>
+                                        <td class="order-content-img-para-cont">
+                                            <img class="order-content-img-para-cont-img"  src="./Images/Frame 1321317918.png" alt=""></img>
+                                            <p >Radiant Shine Hair Conditioner </p>
+                                        </td>
+                                        <td class="order-content-para">Hair</td>
+                                        <td class="order-content-para">₹900 <br> <span>10 ml</span></td>
+                                        <td class="order-content-para">14%</td>
+                                        <td class="order-content-para">In Stock</td>
+                                        <td class="order-table-button-action">
+                                            <div class="dropdown">
+                                                <button class="order-table-button-2">
+                                                    <img class="order-table-button-img-2" src="./Images/solar_menu-dots-bold (1).png" alt="">
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <button class="dropdown-item">Edit <img class="dropdown-item-img" src="./Images/pencil.png" alt=""></button>
+                                                    <button class="dropdown-item">View <img class="dropdown-item-img" src="./Images/lsicon_view-filled.png" alt=""></button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="order-count-td">04</td>
+                                        <td class="order-content-img-para-cont">
+                                            <img class="order-content-img-para-cont-img"  src="./Images/Frame 1321317918.png" alt=""></img>
+                                            <p >Radiant Shine Hair Conditioner </p>
+                                        </td>
+                                        <td class="order-content-para">Hair</td>
+                                        <td class="order-content-para">₹900 <br> <span>10 ml</span></td>
+                                        <td class="order-content-para">14%</td>
+                                        <td class="order-content-para-canl">Out of Stock</td>
+                                        <td class="order-table-button-action">
+                                            <div class="dropdown">
+                                                <button class="order-table-button-2">
+                                                    <img class="order-table-button-img-2" src="./Images/solar_menu-dots-bold (1).png" alt="">
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <button class="dropdown-item">Edit <img class="dropdown-item-img" src="./Images/pencil.png" alt=""></button>
+                                                    <button class="dropdown-item">View <img class="dropdown-item-img" src="./Images/lsicon_view-filled.png" alt=""></button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+        </div>
+</body>
+</html>

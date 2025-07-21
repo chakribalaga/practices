@@ -1,0 +1,27 @@
+*{
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+.order-content-img-para-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.order-content-img-para-cont-img{
+    width: 80px;
+    height: 56px;
+}
+.order-content-img-para-cont p{
+    font-family: "DM Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2E2E2E;
+    width: 150px;
+}
+.order-content-para-view-action-img{
+    width: 24px;
+    height: 24px;
+    align-self: center;
+}

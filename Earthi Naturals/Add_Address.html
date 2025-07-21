@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./My_Account.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <title>Add_Address</title>
+    
+</head>
+<body>
+    <div class="act-main-container">
+         <!-- my-account-container for devices above 630px -->
+        <div class="act-inner-first-container">
+            <div class="act-my_account-container">
+                <img class="act-profile-img" src="./Images/act-profile-icon.png" alt="">
+                <h1 class="act-account-heading">My Account</h1>
+            </div>
+            <hr class="act-hr-1">
+            <button class="act-profile-button">Profile</button>
+            <button class="act-address-button">Address</button>
+            <div class="act-my_account-container">
+                <img class="act-profile-img" src="./Images/delivery-tracking-01.png" alt="">
+                <h1 class="act-account-heading">Orders & Tracking</h1>
+            </div>
+            <hr class="act-hr-1">
+            <button class="act-order-button">Orders</button>
+            <button class="act-My-Wishlist-button">My Wishlist</button>
+            <button class="act-Customer-Support-button">Customer Support</button>
+        </div>
+        <!--back-button-container--> 
+        <div class="act-back-button">
+            <img class="act-button-arrow" src="./Images/arrow-line.png" alt="">
+        </div>
+        <!-- fill/add order-address-container -->
+         <div class="add-order-address-container">
+            <h1 class="add-order-address-heading">Order Address</h1>
+            <div class="add-address-input-container">
+               <label class="add-adddress-label" >Name</label>
+               <div class="add-inner-input-container">
+                    <input class="add-input-values" type="text" value="Name" required>
+                    <img class="edit-pencil" src="./Images/editing-pencil.png" alt="">
+                </div>
+                <hr class="add-input-hr">
+            </div>
+            <div class="add-address-input-container">
+               <label class="add-adddress-label" >Phone Number</label>
+               <div class="add-inner-input-container">
+                    <input class="add-input-values" type="tel" value="+91 12345679890" required>
+                    <img class="edit-pencil" src="./Images/editing-pencil.png" alt="">
+                </div>
+                <hr class="add-input-hr">
+            </div>
+            <div class="inner-add-address-container">
+                <div class="add-address-input-container">
+                    <label class="add-adddress-label" >Pin Code</label>
+                    <div class="add-inner-input-container">
+                            <input class="add-input-values" type="number" value="533546" required>
+                            <img class="edit-pencil" src="./Images/editing-pencil.png" alt="">
+                    </div>
+                    <hr class="add-input-hr">
+                </div>
+                <div class="add-address-input-container">
+                    <label class="add-adddress-label" >city</label>
+                    <div class="add-inner-input-container">
+                            <input class="add-input-values" type="text" value="Madhapur" required>
+                            <img class="edit-pencil" src="./Images/editing-pencil.png" alt="">
+                    </div>
+                    <hr class="add-input-hr">
+                </div>
+            </div>
+            <div class="add-address-input-container">
+                    <label class="add-adddress-label" >State</label>
+                    <div class="add-inner-input-container">
+                            <input class="add-input-values" type="text" value="Telegane" required>
+                            <img class="edit-pencil" src="./Images/editing-pencil.png" alt="">
+                    </div>
+                    <hr class="add-input-hr">
+            </div>
+            <div class="add-address-input-container">
+                    <label class="add-adddress-label" >Address</label>
+                    <div class="add-inner-input-container">
+                            <input class="add-input-values" type="text" value="Road:3,main street" required>
+                            <img class="edit-pencil" src="./Images/editing-pencil.png" alt="">
+                    </div>
+                    <hr class="add-input-hr">
+            </div>
+            <div class="add-type-address">
+                <label class="add-select-types-address" ><input class="add-radio-type"  type="radio" name="Home" >    Home</label>
+                <label class="add-select-types-address" ><input class="add-radio-type"  type="radio" name="Home" >    Office</label>
+                <label class="add-select-types-address" ><input class="add-radio-type"  type="radio" name="Home" >    Other</label>
+            </div>
+            <div class="add-delete-update-button-container">
+                <button class="add-cancel-button">Cancel</button>
+                <button class="add-update-buttun">Update</button>
+            </div>
+         </div>
+    </div> 
+</body>
+</html>

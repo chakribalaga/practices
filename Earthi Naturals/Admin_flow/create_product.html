@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./create_product.css">
+    <title>create_product</title>
+</head>
+<body>
+    <div class="View-orders-main-container">
+        <div class="crt-prd-item-cont">
+            <!-- ---- product details--- -->
+            <div class="prd-details-cont">
+                <h1>Product Details</h1>
+                <div class="product-name-cont">
+                    <label for="product-name">Product Name</label>
+                    <input class="input-form" type="text" placeholder="Enter the name">
+                </div>
+                <div class="Category-cont">
+                    <label for="Category">Category</label>
+                    <select id="category-select" class="category-select input-form">
+                        <option value="">Select Category</option>
+                        <option value="Skin">Skin</option>
+                        <option value="Baby">Baby</option>
+                        <option value="Hair">Hair</option>
+                        <option value="Oils">Oils</option>
+                    </select>
+                </div>
+                <div class="description-cont">
+                    <label for="Product Description">Product Description</label>
+                    <textarea class="input-form desic" name="product-description" placeholder="Enter product description here..." ></textarea>
+                </div>
+
+                <h1> Product Media</h1>
+                <div class="prd-add-img-cont">
+                    <label for="upload-image" class="upload-button">
+                        <img src="./Images/material-symbols_upload.png" alt=""> Click to Upload
+                    </label>
+                    <input type="file" id="upload-image" accept="image/*" style="display: none;">
+                    <p>Max 2MB File Size, Only Png and .jpeg Files.</p>
+                    <p>Max Image Quantity 10</p>
+                </div>
+                <div class="upload-image-view-cont">
+
+                    <div class="inner-upload-image-view-cont">
+                        <img class="inner-upload-image-view-cont-img-1" src="./Images/image 1801.png" alt="">
+                        <div>
+                            <img class="inner-upload-image-view-cont-img-2" src="./Images/Vector.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="inner-upload-image-view-cont">
+                        <img class="inner-upload-image-view-cont-img-1" src="./Images/image 1801.png" alt="">
+                        <div>
+                            <img class="inner-upload-image-view-cont-img-2" src="./Images/Vector.png" alt="">
+                        </div>
+                    </div>
+                    <div class="inner-upload-image-view-cont">
+                        <img class="inner-upload-image-view-cont-img-1" src="./Images/image 1801.png" alt="">
+                        <div>
+                            <img class="inner-upload-image-view-cont-img-2" src="./Images/Vector.png" alt="">
+                        </div>
+                    </div>
+                    <div class="inner-upload-image-view-cont">
+                        <img class="inner-upload-image-view-cont-img-1" src="./Images/image 1801.png" alt="">
+                        <div>
+                            <img class="inner-upload-image-view-cont-img-2" src="./Images/Vector.png" alt="">
+                        </div>
+                    </div>
+                    <div class="inner-upload-image-view-cont">
+                        <img class="inner-upload-image-view-cont-img-1" src="./Images/image 1801.png" alt="">
+                        <div>
+                            <img class="inner-upload-image-view-cont-img-2" src="./Images/Vector.png" alt="">
+                        </div>
+                    </div>
+                    <div class="inner-upload-image-view-cont">
+                        <img class="inner-upload-image-view-cont-img-1" src="./Images/image 1801.png" alt="">
+                        <div>
+                            <img class="inner-upload-image-view-cont-img-2" src="./Images/Vector.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-details-cont">
+                <h1>Product Pricing</h1>
+                <button class="Size-Quantity-btn"><img src="./Images/Vector (1).png" alt="">Size/Quantity</button>
+                <!----------------- In-of-stock---------------------- -->
+                <div class="in-stock-cont">
+                    <div class="inner-stock-cont">
+                        <label class="stock-toggle">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                        <h2>In Stock</h2>
+                    </div>
+                    <div class="unit-size-cont">
+                        <div class="unit-container">
+                            <label for="Units">Unit</label>
+                            <select id="category-select" class="category-units input-form-2">
+                                <option value="">Select Unit</option>
+                                <option value="20 ml">20 ml</option>
+                                <option value="50 ml">50 ml</option>
+                                <option value="100 ml">100 ml</option>
+                                <option value="500 ml">500 ml</option>
+                            </select>
+                        </div>
+                        
+                        <div class="Size-Quantity-input-cont">
+                            <label for="Size/Quantity">Size/Quantity</label>
+                            <input class="input-form-2" type="number" placeholder="Enter the number">
+                        </div>
+
+                    </div>
+
+                    <div class="add-pricing-discount-cont">
+                        <div class="add-prcin-cont">
+                            <img class="add-prcin-cont-img"  src="./Images/si_rupee-fill.png" alt="">
+                            <input class="input-form-3" type="text" placeholder="Price">
+                        </div>
+                        <div class="add-prcin-cont">
+                            <img class="add-prcin-cont-img"  src="./Images/Vector (2).png" alt="">
+                            <input class="input-form-3" type="text" placeholder="Discount">
+                        </div>
+                    </div>
+                    <h2>Final Price : <span>500</span></h2>
+                </div>
+                <!-------------------------- out-of-stock---------------------- -->
+                <div class="in-stock-cont">
+                    <div class="inner-stock-cont">
+                        <label class="stock-toggle">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                        <h2>Out of Stock</h2>
+                    </div>
+                    <p></p>
+                    <div class="unit-size-cont">
+                        <div class="unit-container">
+                            <label for="Units">Unit</label>
+                            <select id="category-select" class="category-units input-form-2">
+                                <option value="">Select Unit</option>
+                                <option value="20 ml">20 ml</option>
+                                <option value="50 ml">50 ml</option>
+                                <option value="100 ml">100 ml</option>
+                                <option value="500 ml">500 ml</option>
+                            </select>
+                        </div>
+                        
+                        <div class="Size-Quantity-input-cont">
+                            <label for="Size/Quantity">Size/Quantity</label>
+                            <input class="input-form-2" type="number" placeholder="Enter the number">
+                        </div>
+
+                    </div>
+
+                    <div class="add-pricing-discount-cont">
+                        <div class="add-prcin-cont">
+                            <img class="add-prcin-cont-img"  src="./Images/si_rupee-fill.png" alt="">
+                            <input class="input-form-3" type="text" placeholder="Price">
+                        </div>
+                        <div class="add-prcin-cont">
+                            <img class="add-prcin-cont-img"  src="./Images/Vector (2).png" alt="">
+                            <input class="input-form-3" type="text" placeholder="Discount">
+                        </div>
+                    </div>
+                    <h2>Final Price : <span>1200</span></h2>
+                </div>
+                <!-- ------------------------------Ingredients----------------- -->
+                 <div class="description-cont">
+                    <label for="Product Description">Ingredients</label>
+                    <textarea class="input-form desic" name="Ingredients" placeholder="Enter product ingredients" ></textarea>
+                 </div>
+                <!-- How to use -->
+                   <div class="description-cont">
+                    <label for="Product Description">How to use</label>
+                    <textarea class="input-form desic" name="Ingredients" placeholder="Enter the usage process" ></textarea>
+                 </div>
+
+                 <!-- reset and publish button  -->
+                  <div class="reset-publish-button">
+                    <button class="reset-publish-reset-btn">Reset</button>
+                    <button class="reset-publish-publish-btn">Publish Product</button>
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

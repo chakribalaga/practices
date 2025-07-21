@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./My_Orders.css">
+
+    <title>order_reviewed</title>
+</head>
+<body>
+    <div class="act-main-container">
+        <!-- my-account-container for devices above 630px -->
+        <div class="act-inner-first-container">
+            <div class="act-my_account-container">
+                <img class="act-profile-img" src="./Images/act-profile-icon.png" alt="">
+                <h1 class="act-account-heading">My Account</h1>
+            </div>
+            <hr class="act-hr-1">
+            <button class="act-profile-button">Profile</button>
+            <button class="act-address-button">Address</button>
+            <div class="act-my_account-container">
+                <img class="act-profile-img" src="./Images/delivery-tracking-01.png" alt="">
+                <h1 class="act-account-heading">Orders & Tracking</h1>
+            </div>
+            <hr class="act-hr-1">
+            <button class="act-order-button">Orders</button>
+            <button class="act-My-Wishlist-button">My Wishlist</button>
+            <button class="act-Customer-Support-button">Customer Support</button>
+        </div>
+        <!-- order-tracking-container -->
+        <div class="ord-tra-container">
+                <div class="ord-tra-back-help-cont" >
+                    <div class="ord-tra-back-cont">
+                        <img class="ord-tra-arrow" src="./Images/arrow-line.png" alt="Back-arrow">
+                        <a href="./My_Orders.html"><button class="ord-trac-back-button">Back</button></a>
+                    </div>
+                    <div class="ord-tra-help-cont">
+                        <img class="ord-tra-help" src="./Images/help-img.png" alt="Help-img">
+                        <button   class="ord-trac-Help-button">Help</button>
+                    </div>
+                </div>
+                <!-- order-details -->
+                <div class="order-tracking-view-container">
+                    <div class="ord-tra-id-container">
+                        <h1 class="ord-tra-id-head">Order Id :</h1>
+                        <h3 class="ord-tra-id-no">12345</h3>
+                    </div>
+
+                      
+                    <div class="ord-tra-item-view-cont">
+                        <img class="ord-tra-img" src="./Images/order-img.png" alt="order-img">
+                        <div class="ord-tra-content-cont">
+                            <h1 class="ord-tra-deliver-heading">Delivered, 12 Jun</h1>
+                            <h3 class="ord-tra-per-heading">Radiant Shine Hair Conditioner</h3>
+                            <p class="ord-tra-quantity-para">100ml</p>
+                        </div>
+                        
+                    </div>
+                    <div class="ord-exc-return">
+                            <button class="ord-tra-exc-btn">Exchange</button>
+                            <button class="ord-tra-rtn-btn">Return</button>
+
+                    </div>
+                </div>
+
+                     <!-- tracking-container-detaisl -->
+                <div class="ord-tra-flow-cont">
+                   <h1 class="ord-tra-order-tracking-heading">Order Tracking</h1>
+                   <div class="ord-tra-status-cont">
+                        <div class="ord-tra-status-circle"></div>
+                        <div class="ord-track-detils">
+                            <h1 class="ord-track-head">Delivered</h1>
+                            <p class="ord-track-head-date">30 jun, 2025</p>
+                        </div>
+                   </div>
+                   <div class="ord-tra-status-cont">
+                        <div class="ord-tra-status-circle"></div>
+                        <div class="ord-track-detils">
+                            <h1 class="ord-track-head">Out For Delivery </h1>
+                            <p class="ord-track-head-date">30 jun, 2025</p>
+                        </div>
+                   </div>
+                   <div class="ord-tra-status-cont">
+                        <div class="ord-tra-status-circle"></div>
+                        <div class="ord-track-detils">
+                            <h1 class="ord-track-head">Order Packed </h1>
+                            <p class="ord-track-head-date">25 jun, 2025</p>
+                        </div>
+                   </div>
+                   <div class="ord-tra-status-cont">
+                        <div class="ord-tra-status-circle"></div>
+                        <div class="ord-track-detils">
+                            <h1 class="ord-track-head">Order Placed </h1>
+                            <p class="ord-track-head-date">25 jun, 2025</p>
+                        </div>
+                   </div>
+                   <div class="ord-tra-vertical-line-add-img"></div>
+                </div>
+              <!-- rating container  -->
+               <div class="ord-tra-deli-rating-container">
+                  <div class="ord-tra-smile-review-img-cont">
+                    <img class="ord-tra-smile-review-img" src="./Images/smile-reviewed-img.png" alt="">
+                  </div>
+                  <div class="ord-tra-star-rating">
+                    <input type="radio" name="rating" id="star5" />
+                    <input type="radio" name="rating" id="star4" />
+                    <input type="radio" name="rating" id="star3" />
+                    <input type="radio" name="rating" id="star2" />
+                    <input type="radio" name="rating" id="star1" />
+                        <div class="stars">
+                            <label for="star5">&#9733;</label>
+                            <label for="star4">&#9733;</label>
+                            <label for="star3">&#9733;</label>
+                            <label for="star2">&#9733;</label>
+                            <label for="star1">&#9733;</label>
+                        </div>
+                  </div>
+                 <h1 class="ord-tra-exp-heading-2">Thank you for sharing your thoughts</h1>
+               </div>
+               <!-- Address details  container -->
+                <div class="ord-tra-del-address">
+                    <div class="inner-ord-tra-del-address">
+                        <h1 class="ord-tra-del-add-heading">Delivery Address</h1>
+                        <h2 class="ord-tra-cust-name">Hari Keerthi</h2>
+                        <p class="ord-tra-cust-pho">+91 9648383787</p>
+                        <p class="ord-tra-cust-address">Road no 23, Kakatiya hills, Madhapur,<br> Hyderabad,India, 50081 </p>
+                        <p class="ord-tra-cust-loc-typ">Office</p>
+                    <img class="ord-tra-add-img" src="./Images/address-img.png" alt="">
+                </div>
+
+                <!-- pricing details -->
+                <div class="ord-tra-summary-cont">
+                    <h1 class="ord-tra-summ-heading">Order Summary</h1>
+                    <div class="ord-tra-sub-heading-container">
+                        <h3 class="ord-tra-pricing">Subtotal</h3>
+                        <h3 class="ord-tra-costs">₹2,863</h3>
+                    </div>
+                    <div class="ord-tra-sub-heading-container">
+                        <h3 class="ord-tra-pricing">Discount (34.2 %)</h3>
+                        <h3 class="ord-tra-costs-distcount">-₹979</h3>
+                    </div>
+                    <div class="ord-tra-sub-heading-container">
+                        <h3 class="ord-tra-pricing">Delivery Fee</h3>
+                        <h3 class="ord-tra-costs">₹59</h3>
+                    </div>
+                    <hr class="ord-tra-price-hr">
+                    <div class="ord-tra-total-pri-cont">
+                        <h1 class="ord-tra-final-pri">Total</h1>
+                        <h1 class="ord-tra-total-head">₹1,884</h1>
+                    </div>
+                    <div class="ord-tra-mode-del-cont">
+                        <h1 class="ord-tra-mode-heading">Payment Mode</h1>
+                        <h2 class="ord-tra-mode-type">Cash on Delivery</h2>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

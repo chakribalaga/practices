@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.logo a {
+    text-decoration: none;
+}
+.nav-menu ul{
+    display: inline-flex;
+    
+    
+}
+.nav-menu a{
+     margin-left: 30px; 
+     font-size: 25px;
+     font-weight: 500;
+     list-style: none;
+     text-decoration: none;
+     color: black;
+}
+.nav-menu a:hover{
+    color: rgb(213, 69, 69);
+}

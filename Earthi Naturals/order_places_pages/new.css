@@ -1,0 +1,326 @@
+.ret-rea-back-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 16px;
+ }
+ .ret-add-back-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+ }
+ .ret-rea-back-arrow{
+    height: 25px;
+    width: 25px;
+    color: #000000;
+    align-self: center;
+ }
+ .ret-rea-back-btn{
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    font-family: "DM Sans",sans-serif;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ @media(max-width:630px){
+    .ret-add-back-cont{
+        display: none;
+    }
+}
+.ret-rea-content-cont{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+
+ }
+ .ret-rea-reason-heading{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+ }
+ .reason-dropdown-wrapper {
+  max-width: 433px;
+  width: 100%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.ret-rea-select-reason {
+  font-family: "DM Sans", sans-serif;
+  color: #444;
+  font-size: 13px;
+  font-weight: 500;
+  max-width: 431px;
+  width: 100%;
+  padding: 10px 40px 10px 14px; /* Left padding for gap, right for arrow */
+  border: 1px solid #aaaaaa;
+  border-radius: 10px;
+
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%23999999' stroke-width='2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+.reason-dropdown-wrapper {
+  max-width: 433px;
+  width: 100%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.ret-rea-select-reason option{
+    font-size: "DM Sans",S;
+}
+.option-selection-cont{
+    margin-top: 10px;
+}
+.option-selection{
+    font-family: "DM Sans",sans-serif;
+    color: #aaaaaa;
+    font-weight: 400;
+    font-size: 12px;
+}
+.ord-tra-add-img-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 15px
+}
+ /* add-img-css  */
+#img-upload {
+    display: none;
+}
+
+
+.upload-img-wrapper {
+    max-width: 62px;
+    width: 100%;
+}
+
+
+.upload-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Add icon inside */
+.upload-icon {
+    max-width: 22px;
+    width: 50%;
+    max-height: 22px;
+    height: auto;
+}
+
+
+@media (max-width: 600px) {
+    .upload-img-wrapper {
+        max-width: 50px;
+    }
+
+    .upload-icon {
+        max-width: 18px;
+    }
+}
+.add-img-icon-2{
+    width: 3px;
+    height: 3px;
+
+}
+.ord-view-review-img{
+    max-width: 96px;
+    width: 100%;
+    max-height: 76px;
+    height: 100%;
+}
+.inner-add-img-cont-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #878787;
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+     position: absolute;
+     top: -1px;
+    right: -4px;
+}
+.ord-add-bank-btn{
+margin: 10px 15px;
+background-color: transparent;
+border: none;
+outline: none;
+color: #3464DE;
+font-family: "DM Sans",sans-serif;
+font-weight: 500;
+font-size: 14px;
+padding: 5px;
+}
+.ord-ret-refund-heading{
+    font-family: "DM Sans",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin: 10px 12px;
+}
+.ord-ret-ammount-credit-cont{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #c2c2c2;
+    border-radius: 12px;
+    max-width: 630px;
+    width: 100%;
+    min-height: 44px;
+    height: 100%;
+}
+.ord-ret-ammount-credit-para{
+    font-family: "DM Sans",sans-serif;
+    color: #717171;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 600px;
+    width: 100%;
+    align-self: center;
+    padding: 5px;
+}
+.ord-ret-bank-heading{
+    font-family: "DM Sans",sans-serif;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    margin: 14px 12px;
+}
+.ord-ret-bank-acc-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1px solid #c2c2c2;
+    border-radius: 12px;
+    max-width: 630px;
+    width: 100%;
+    min-height: 44px;
+    height: 100%;
+}
+.inner-ord-ret-bank-acc-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 5px;
+}
+.bank-holder-name{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400px;
+    color: #717171;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+.ord-ret-edit-button{
+    color: #3464DE;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "DM Sans",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px;
+    text-decoration: none;
+}
+.ord-return-request-pop-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 595px;
+    width: 100%;
+    max-height: 386px;
+    height: 100%;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    align-self: center;
+}
+.ord-ret-accept-img{
+    max-width: 70px;
+    width: 100%;
+    max-height: 70px;
+    height: 100%;
+    align-self: center;
+    margin: 15px;
+}
+.ord-ret-accept-heading{
+    font-family: "DM Sans",sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    align-self: center;
+    max-width: 277px;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+}
+.ord-ret-ok-btn{
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    max-width: 183px;
+    width: 100%;
+    height: 48px;
+    align-self: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px;
+    font-family: "DM Sans",sans-serif;
+}
+.ret-add-sum-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 50px 25px;
+}
+.ret-add-adres-sum-btn{
+    background-color: #566245;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    align-self: center;
+    color: #ffffff;
+    max-width: 342px;
+    width: 100%;
+    height: 40px;
+    font-family: "DM Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+@media(max-width:630px){
+    .ret-add-sum-cont{
+        justify-content: center;
+    }
+    .ret-add-adres-sum-btn{
+        width: 50%;
+    }
+}
